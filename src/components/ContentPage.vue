@@ -1,16 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>A starter template created with vuejs on {{today}}</h2>
+    <h2>This is a content page</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'ContentPage',
   data () {
     return {
-      msg: 'Welcome Vue',
+      msg: 'Welcome to content page',
       today: new Date()
     }
   }
